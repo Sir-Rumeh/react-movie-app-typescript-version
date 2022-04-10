@@ -1,26 +1,33 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+// styling
+import { GlobalStyle } from "./GlobalStyle";
+// components
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+// pages
+import Home from "./pages/Home";
+import Movie from "./pages/Movie";
+import Login from "./pages/Login";
+import NotFound from "./pages/NotFound";
+// Routing
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+// Context
+import UserProvider from "./context";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default function App() {
+	return (
+		<BrowserRouter>
+			<UserProvider>
+				<Header />
+				<Routes>
+					<Route path="/" element={<Home />} />
+					<Route path="/:movieId" element={<Movie />} />
+					<Route path="/login" element={<Login />} />
+					<Route path="/*" element={<NotFound />} />
+				</Routes>
+				<Footer />
+				<GlobalStyle />
+			</UserProvider>
+		</BrowserRouter>
+	);
 }
-
-export default App;

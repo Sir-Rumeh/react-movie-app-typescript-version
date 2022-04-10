@@ -1,0 +1,7 @@
+.buttonBackground {
+	background: rgba(3, 37, 65, 0.2);
+	padding-top: 0.001rem;
+	padding-bottom: 1rem;
+	max-width: 80rem;
+	margin: 0 auto;
+}
