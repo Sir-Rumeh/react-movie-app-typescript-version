@@ -14,7 +14,7 @@ const Actor: React.FC<Props> = ({ name, character, imageUrl }) => {
 			<Image src={imageUrl} alt="actor-thumb" />
 			<h3>{name}</h3>
 			<p>{character}</p>
-			{console.log("testing")}
+			{/* {console.log("testing")} */}
 		</Wrapper>
 	);
 };
