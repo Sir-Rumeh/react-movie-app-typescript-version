@@ -1,5 +1,5 @@
 import React from "react";
-import { setTimeout } from "timers/promises";
+// import { setTimeout } from "timers/promises";
 
 import { Wrapper } from "./Spinner.Styles";
 
