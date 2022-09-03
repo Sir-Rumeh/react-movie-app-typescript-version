@@ -47,7 +47,7 @@ const Home: React.FC = () => {
 			<Grid header={searchTerm ? "Search Result" : "Popular Movies"}>
 				{state.results.map((movie) => (
 					<Thumb
-						key={`${movie.id}${random}`}
+						// key={`${movie.id}${random}`}
 						clickable
 						image={
 							movie.poster_path
