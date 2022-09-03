@@ -44,7 +44,7 @@ const Home: React.FC = () => {
 				/>
 			) : null}
 			<SearchBar setSearchTerm={setSearchTerm} />
-			{/* <Grid header={searchTerm ? "Search Result" : "Popular Movies"}> */}
+			<Grid header={searchTerm ? "Search Result" : "Popular Movies"}>
 				{state.results.map((movie) => (
 					<Thumb
 						key={`${movie.id}${random}`}
