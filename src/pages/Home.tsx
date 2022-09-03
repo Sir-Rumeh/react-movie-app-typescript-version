@@ -19,14 +19,14 @@ import { useHomeFetch } from "../hooks/useHomeFetch";
 import NoImage from "../images/no_image.jpg";
 
 const Home: React.FC = () => {
-	const {
-		state,
-		loading,
-		error,
-		searchTerm,
-		setSearchTerm,
-		setIsLoadingMore,
-	} = useHomeFetch();
+	// const {
+	// 	state,
+	// 	loading,
+	// 	error,
+	// 	searchTerm,
+	// 	setSearchTerm,
+	// 	setIsLoadingMore,
+	// } = useHomeFetch();
 
 	const random = Math.floor(Math.random() * 6);
 
