@@ -8,7 +8,7 @@ import SearchBar from "../components/SearchBar/SearchBar";
 import Grid from "../components/Grid/Grid";
 import Thumb from "../components/Thumb/Thumb";
 import Spinner from "../components/Spinner/Spinner";
-import LoadMoreButton from "../components/LoadMoreButton/LoadMoreButton";
+// import LoadMoreButton from "../components/LoadMoreButton/LoadMoreButton";
 // pages
 import NotFound from "./NotFound";
 
