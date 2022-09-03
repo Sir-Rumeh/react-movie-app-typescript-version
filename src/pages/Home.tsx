@@ -60,7 +60,7 @@ const Home: React.FC = () => {
 					/>
 				))}
 			</Grid>
-			{loading && <Spinner />}
+			{/* {loading && <Spinner />} */}
 			{state.page < state.total_pages && !loading && (
 				<LoadMoreButton
 					text="Load More"
