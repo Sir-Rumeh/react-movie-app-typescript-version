@@ -13,7 +13,7 @@ import LoadMoreButton from "../components/LoadMoreButton/LoadMoreButton";
 import NotFound from "./NotFound";
 
 // Hook
-import { useHomeFetch } from "../hooks/useHomeFetch";
+// import { useHomeFetch } from "../hooks/useHomeFetch";
 
 // Image
 import NoImage from "../images/no_image.jpg";
