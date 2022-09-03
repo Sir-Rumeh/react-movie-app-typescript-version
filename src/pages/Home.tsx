@@ -32,7 +32,7 @@ const Home: React.FC = () => {
 
 	// console.log(state);
 
-	if (error) return <NotFound />;
+	// if (error) return <NotFound />;
 
 	return (
 		<>
