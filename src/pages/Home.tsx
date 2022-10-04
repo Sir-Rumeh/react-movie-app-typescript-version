@@ -23,7 +23,7 @@ const Home: React.FC = () => {
 		// state,
 		// loading,
 		// error,
-		searchTerm,
+		// searchTerm,
 		setSearchTerm,
 		setIsLoadingMore,
 	} = useHomeFetch();
