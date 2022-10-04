@@ -43,7 +43,7 @@ const Home: React.FC = () => {
 					text={state.results[1].overview}
 				/>
 			) : null}
-			<SearchBar setSearchTerm={setSearchTerm} />
+			{/* <SearchBar setSearchTerm={setSearchTerm} /> */}
 			<Grid header={searchTerm ? "Search Result" : "Popular Movies"}>
 				{state.results.map((movie) => (
 					<Thumb
