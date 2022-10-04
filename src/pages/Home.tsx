@@ -46,18 +46,18 @@ const Home: React.FC = () => {
 			<SearchBar setSearchTerm={setSearchTerm} />
 			<Grid header={searchTerm ? "Search Result" : "Popular Movies"}>
 				{state.results.map((movie) => (
-					<Thumb
-						key={`${movie.id}${random}`}
-						clickable
-						image={
-							movie.poster_path
-								? IMAGE_BASE_URL +
-								  POSTER_SIZE +
-								  movie.poster_path
-								: NoImage
-						}
-						movieId={movie.id}
-					/>
+					// <Thumb
+					// 	key={`${movie.id}${random}`}
+					// 	clickable
+					// 	image={
+					// 		movie.poster_path
+					// 			? IMAGE_BASE_URL +
+					// 			  POSTER_SIZE +
+					// 			  movie.poster_path
+					// 			: NoImage
+					// 	}
+					// 	movieId={movie.id}
+					// />
 				))}
 			</Grid>
 			{loading && <Spinner />}
