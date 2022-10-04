@@ -62,10 +62,10 @@ const Home: React.FC = () => {
 			</Grid>
 			{loading && <Spinner />}
 			{state.page < state.total_pages && !loading && (
-				<LoadMoreButton
-					text="Load More"
-					callback={() => setIsLoadingMore(true)}
-				/>
+				// <LoadMoreButton
+				// 	text="Load More"
+				// 	callback={() => setIsLoadingMore(true)}
+				// />
 			)}
 		</>
 	);
