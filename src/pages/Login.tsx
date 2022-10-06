@@ -28,8 +28,7 @@ export default function Login() {
 			// );
 			// console.log(sessionId);
 			// setUser({ sessionId: sessionId.session_id, username });
-
-			navigate("/");
+			// navigate("/");
 		} catch (error) {
 			setError(true);
 		}
