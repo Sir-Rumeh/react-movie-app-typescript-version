@@ -26,7 +26,7 @@ export default function Login() {
 				username,
 				password
 			);
-			// console.log(sessionId);
+			console.log(sessionId);
 			// setUser({ sessionId: sessionId.session_id, username });
 			// navigate("/");
 		} catch (error) {
