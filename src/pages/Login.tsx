@@ -30,7 +30,7 @@ export default function Login() {
 			setUser({ sessionId: sessionId.session_id, username });
 			navigate("/");
 		} catch (error) {
-			// setError(true);
+			setError(true);
 		}
 	};
 
