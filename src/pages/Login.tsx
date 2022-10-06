@@ -20,7 +20,7 @@ export default function Login() {
 	const handleSubmit = async () => {
 		setError(false);
 		try {
-			const requestToken = await API.getRequestToken();
+			// const requestToken = await API.getRequestToken();
 			const sessionId = await API.authenticate(
 				requestToken,
 				username,
