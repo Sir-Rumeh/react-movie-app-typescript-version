@@ -46,12 +46,12 @@ export default function Login() {
 		<Wrapper>
 			{error && <div className="error">There was an error!</div>}
 			<label>Username:</label>
-			<input
+			{/* <input
 				type="text"
 				value={username}
 				name={user}
 				onChange={handleInput}
-			/>
+			/> */}
 			<input
 				type="password"
 				value={password}
