@@ -10,7 +10,7 @@ import LoadMoreButton from "../components/LoadMoreButton/LoadMoreButton";
 import { Wrapper } from "./Login.Styles";
 
 export default function Login() {
-	const [username, setUsername] = useState("");
+	// const [username, setUsername] = useState("");
 	const [password, setPassword] = useState("");
 	const [error, setError] = useState(false);
 
@@ -34,7 +34,7 @@ export default function Login() {
 		}
 	};
 
-	const handleInput = (e) => {
+	const handleInput = (e: any) => {
 		const name = e.currentTarget.name;
 		const value = e.currentTarget.value;
 
