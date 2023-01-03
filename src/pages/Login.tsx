@@ -11,8 +11,8 @@ import { Wrapper } from "./Login.Styles";
 
 export default function Login() {
 	// const [username, setUsername] = useState("");
-	// const [password, setPassword] = useState("");
-	// const [error, setError] = useState(false);
+	const [password, setPassword] = useState("");
+	const [error, setError] = useState(false);
 
 	const [user, setUser] = useContext(Context);
 	const navigate = useNavigate();
