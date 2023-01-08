@@ -22,7 +22,7 @@ const Home: React.FC = () => {
 	const {
 		// state,
 		// loading,
-		error,
+		// error,
 		searchTerm,
 		setSearchTerm,
 		setIsLoadingMore,
