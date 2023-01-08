@@ -20,8 +20,8 @@ import NoImage from "../images/no_image.jpg";
 
 const Home: React.FC = () => {
 	const {
-		state,
-		loading,
+		// state,
+		// loading,
 		error,
 		searchTerm,
 		setSearchTerm,
