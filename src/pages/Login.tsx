@@ -15,7 +15,7 @@ export default function Login() {
 	const [error, setError] = useState(false);
 
 	const [user, setUser] = useContext(Context);
-	// const navigate = useNavigate();
+	const navigate = useNavigate();
 
 	const handleSubmit = async () => {
 		setError(false);
