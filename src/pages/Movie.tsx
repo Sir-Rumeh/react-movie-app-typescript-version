@@ -29,7 +29,7 @@ export default function Movie() {
 			{/* <BreadCrumb movieTitle={movie.original_title} /> */}
 			{/* <MovieInfo movie={movie} /> */}
 			<MovieInfoBar
-				// time={movie.runtime}
+				time={movie.runtime}
 				budget={movie.budget}
 				revenue={movie.revenue}
 			/>
