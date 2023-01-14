@@ -22,7 +22,7 @@ export default function Movie() {
 	const { state: movie, loading, error } = useMovieFetch(movieId);
 
 	// if (loading) return <Spinner />;
-	if (error) return <NotFound />;
+	// if (error) return <NotFound />;
 
 	return (
 		<div>
