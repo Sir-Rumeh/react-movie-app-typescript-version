@@ -66,8 +66,8 @@ const apiSettings = {
 		return await (await fetch(endpoint)).json();
 	},
 	fetchMovie: async (movieId: string): Promise<Movie> => {
-		// const endpoint = `${API_URL}movie/${movieId}?api_key=${API_KEY}`;
-		// return await (await fetch(endpoint)).json();
+		const endpoint = `${API_URL}movie/${movieId}?api_key=${API_KEY}`;
+		return await (await fetch(endpoint)).json();
 	},
 	fetchCredits: async (movieId: string): Promise<Credits> => {
 		const creditsEndpoint = `${API_URL}movie/${movieId}/credits?api_key=${API_KEY}`;
