@@ -60,9 +60,9 @@ export type Credits = {
 
 const apiSettings = {
 	fetchMovies: async (searchTerm: string, page: number): Promise<Movies> => {
-		const endpoint = searchTerm
-			? `${SEARCH_BASE_URL}${searchTerm}&page=${page}`
-			: `${POPULAR_BASE_URL}&page=${page}`;
+		const endpoint = searchTerm;
+		// ? `${SEARCH_BASE_URL}${searchTerm}&page=${page}`
+		// : `${POPULAR_BASE_URL}&page=${page}`;
 		return await (await fetch(endpoint)).json();
 	},
 	fetchMovie: async (movieId: string): Promise<Movie> => {
