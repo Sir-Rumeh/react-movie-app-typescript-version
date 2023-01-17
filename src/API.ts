@@ -76,7 +76,7 @@ const apiSettings = {
 
 	// for login system
 	getRequestToken: async () => {
-		// const reqToken = await (await fetch(REQUEST_TOKEN_URL)).json();
+		const reqToken = await (await fetch(REQUEST_TOKEN_URL)).json();
 		return reqToken.request_token;
 	},
 	authenticate: async (
@@ -98,12 +98,12 @@ const apiSettings = {
 		).json();
 		// Then get the sessionId with the requestToken
 		if (data.success) {
-			// const sessionId = await (
-			// 	await fetch(SESSION_ID_URL, {
-			// 		...defaultConfig,
-			// 		body: JSON.stringify({ request_token: requestToken }),
-			// 	})
-			// ).json();
+			const sessionId = await (
+				await fetch(SESSION_ID_URL, {
+					...defaultConfig,
+					body: JSON.stringify({ request_token: requestToken }),
+				})
+			).json();
 			return sessionId;
 		}
 	},
