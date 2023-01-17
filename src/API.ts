@@ -53,9 +53,9 @@ export type Crew = {
 };
 
 export type Credits = {
-	// id: number;
-	// cast: Cast[];
-	// crew: Crew[];
+	id: number;
+	cast: Cast[];
+	crew: Crew[];
 };
 
 const apiSettings = {
