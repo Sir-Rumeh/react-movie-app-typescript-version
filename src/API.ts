@@ -26,10 +26,10 @@ export type Movie = {
 	// poster_path: string;
 	// title: string;
 	// vote_average: number;
-	// vote_count: number;
-	// budget: number;
-	// runtime: number;
-	// revenue: number;
+	vote_count: number;
+	budget: number;
+	runtime: number;
+	revenue: number;
 };
 
 export type Movies = {
