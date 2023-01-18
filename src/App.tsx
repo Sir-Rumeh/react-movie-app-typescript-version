@@ -23,7 +23,7 @@ export default function App() {
 					{/* <Route path="/" element={<Home />} /> */}
 					{/* <Route path="/:movieId" element={<Movie />} /> */}
 					{/* <Route path="/login" element={<Login />} /> */}
-					{/* <Route path="/*" element={<NotFound />} /> */}
+					<Route path="/*" element={<NotFound />} />
 				</Routes>
 				<Footer />
 				<GlobalStyle />
