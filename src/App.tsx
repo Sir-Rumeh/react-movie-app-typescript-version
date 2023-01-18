@@ -28,7 +28,6 @@ export default function App() {
 				<Footer />
 				<GlobalStyle />
 			</UserProvider>
-			{console.log("testing")}
 		</BrowserRouter>
 	);
 }
