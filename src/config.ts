@@ -19,7 +19,7 @@ const POSTER_SIZE: string = "w780";
 export {
 	// SEARCH_BASE_URL,
 	// POPULAR_BASE_URL,
-	API_URL,
+	// API_URL,
 	API_KEY,
 	IMAGE_BASE_URL,
 	BACKDROP_SIZE,
