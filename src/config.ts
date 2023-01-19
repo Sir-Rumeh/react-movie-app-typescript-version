@@ -16,15 +16,14 @@ const BACKDROP_SIZE: string = "w1280";
 // w92, w154, w185, w342, w500, w780, original
 const POSTER_SIZE: string = "w780";
 
-export {
-	// SEARCH_BASE_URL,
-	// POPULAR_BASE_URL,
-	// API_URL,
-	// API_KEY,
-	// IMAGE_BASE_URL,
-	// BACKDROP_SIZE,
-	// POSTER_SIZE,
-	// REQUEST_TOKEN_URL,
-	// LOGIN_URL,
-	SESSION_ID_URL,
-};
+export // SEARCH_BASE_URL,
+// POPULAR_BASE_URL,
+// API_URL,
+// API_KEY,
+// IMAGE_BASE_URL,
+// BACKDROP_SIZE,
+// POSTER_SIZE,
+// REQUEST_TOKEN_URL,
+// LOGIN_URL,
+// SESSION_ID_URL,
+ {};
