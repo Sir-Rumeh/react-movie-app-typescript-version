@@ -17,7 +17,7 @@ const BACKDROP_SIZE: string = "w1280";
 const POSTER_SIZE: string = "w780";
 
 export {
-	// SEARCH_BASE_URL,
+	SEARCH_BASE_URL,
 	POPULAR_BASE_URL,
 	API_URL,
 	API_KEY,
