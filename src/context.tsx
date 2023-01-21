@@ -7,7 +7,7 @@ export default function UserProvider({ children }) {
 
 	return (
 		<Context.Provider value={[state, setState]}>
-			{/* {children} */}
+			{children}
 		</Context.Provider>
 	);
 }
