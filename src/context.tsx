@@ -3,7 +3,7 @@
 // export const Context = createContext();
 
 export default function UserProvider({ children }) {
-	// const [state, setState] = useState(undefined);
+	const [state, setState] = useState(undefined);
 
 	return (
 		<Context.Provider value={[state, setState]}>
