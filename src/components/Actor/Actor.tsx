@@ -3,7 +3,7 @@ import React from "react";
 import { Wrapper, Image } from "./Actor.Styles";
 // Types
 type Props = {
-	// name: string;
+	name: string;
 	// character: string;
 	// imageUrl: string;
 };
