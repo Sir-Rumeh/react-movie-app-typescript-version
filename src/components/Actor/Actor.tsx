@@ -4,7 +4,7 @@ import { Wrapper, Image } from "./Actor.Styles";
 // Types
 type Props = {
 	name: string;
-	// character: string;
+	character: string;
 	// imageUrl: string;
 };
 
