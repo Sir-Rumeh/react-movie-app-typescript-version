@@ -5,7 +5,7 @@ import { Wrapper, Image } from "./Actor.Styles";
 type Props = {
 	name: string;
 	character: string;
-	// imageUrl: string;
+	imageUrl: string;
 };
 
 const Actor: React.FC<Props> = ({ name, character, imageUrl }) => {
