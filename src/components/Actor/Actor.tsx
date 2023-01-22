@@ -12,7 +12,7 @@ const Actor: React.FC<Props> = ({ name, character, imageUrl }) => {
 	return (
 		<Wrapper>
 			{/* <Image src={imageUrl} alt="actor-thumb" /> */}
-			<h3>{name}</h3>
+			{/* <h3>{name}</h3> */}
 			<p>{character}</p>
 			{console.log("testing")}
 		</Wrapper>
