@@ -20,4 +20,4 @@ const BreadCrumb: React.FC<Props> = ({ movieTitle }) => {
 	);
 };
 
-// export default BreadCrumb;
+export default BreadCrumb;
