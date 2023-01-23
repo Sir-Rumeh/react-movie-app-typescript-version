@@ -12,7 +12,7 @@ const BreadCrumb: React.FC<Props> = ({ movieTitle }) => {
 		<Wrapper>
 			<Content>
 				{/* <Link to="/"><span>Home</span></Link> */}
-				<span>{movieTitle}</span>
+				{/* <span>{movieTitle}</span> */}
 			</Content>
 		</Wrapper>
 	);
