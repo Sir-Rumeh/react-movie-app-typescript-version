@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { Wrapper, Content } from "./BreadCrumb.Styles";
 // Types
 type Props = {
-	// movieTitle: string;
+	movieTitle: string;
 };
 
 const BreadCrumb: React.FC<Props> = ({ movieTitle }) => {
