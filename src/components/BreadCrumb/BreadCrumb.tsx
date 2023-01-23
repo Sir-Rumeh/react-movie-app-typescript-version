@@ -10,10 +10,10 @@ type Props = {
 const BreadCrumb: React.FC<Props> = ({ movieTitle }) => {
 	return (
 		<Wrapper>
-			{/* <Content>
+			<Content>
 				{/* <Link to="/"><span>Home</span></Link> */}
 				{/* <span>{movieTitle}</span> */}
-			</Content> */}
+			</Content>
 		</Wrapper>
 	);
 };
