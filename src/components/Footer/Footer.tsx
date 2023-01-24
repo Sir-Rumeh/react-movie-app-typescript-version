@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
 	const background = {
-		// backgroundColor: "rgba(1, 25, 50, 1)",
+		backgroundColor: "rgba(1, 25, 50, 1)",
 	};
 	return (
 		<section
