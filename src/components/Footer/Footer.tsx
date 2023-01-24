@@ -6,8 +6,8 @@ export default function Footer() {
 	};
 	return (
 		<section
-			// style={background}
-			className="p-5 text-center text-white position-relative"
+		// style={background}
+		// className="p-5 text-center text-white position-relative"
 		>
 			<div className="container">
 				<p className="lead">Sir_Rumeh &copy; 2022</p>
