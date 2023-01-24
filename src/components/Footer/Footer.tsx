@@ -12,7 +12,7 @@ export default function Footer() {
 			<div className="container">
 				{/* <p className="lead">Sir_Rumeh &copy; 2022</p> */}
 				<a
-					href="#header"
+					// href="#header"
 					className="position-absolute bottom-0 end-0 h1 p-5 footer"
 				>
 					<i className="bi bi-arrow-up-circle"></i>
