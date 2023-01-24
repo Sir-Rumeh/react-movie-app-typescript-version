@@ -6,7 +6,7 @@ export default function Footer() {
 	};
 	return (
 		<section
-			style={background}
+			// style={background}
 			className="p-5 text-center text-white position-relative"
 		>
 			<div className="container">
