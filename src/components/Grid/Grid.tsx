@@ -1,7 +1,7 @@
 // import React from "react";
 
 // Styles
-// import { Wrapper, Content } from "./Grid.Styles";
+import { Wrapper, Content } from "./Grid.Styles";
 // Types
 type Props = {
 	header: string;
