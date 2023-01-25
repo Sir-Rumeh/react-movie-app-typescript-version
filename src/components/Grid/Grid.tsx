@@ -1,4 +1,4 @@
-// import React from "react";
+import React from "react";
 
 // Styles
 import { Wrapper, Content } from "./Grid.Styles";
