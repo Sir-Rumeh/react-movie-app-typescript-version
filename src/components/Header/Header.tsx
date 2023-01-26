@@ -5,7 +5,7 @@ import React, { useContext } from "react";
 // import RMDBLogo from "../../images/react-movie-logo.svg";
 // import TMDBLogo from "../../images/tmdb_logo.svg";
 // routiing
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 // login system
 import { Context } from "../../context";
 
