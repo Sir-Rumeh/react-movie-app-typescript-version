@@ -16,7 +16,7 @@ const Header: React.FC = () => {
 		<Wrapper id="header">
 			<Content>
 				<Link to="/">
-					{/* <LogoImg src={RMDBLogo} alt="rmdb-logo" /> */}
+					<LogoImg src={RMDBLogo} alt="rmdb-logo" />
 				</Link>
 				{user ? (
 					<span className="user">
