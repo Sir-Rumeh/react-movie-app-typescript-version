@@ -3,7 +3,7 @@ import React, { useContext } from "react";
 // import { Wrapper, Content, LogoImg, TMDBLogoImg } from "./Header.Styles.js";
 // logo image imports
 // import RMDBLogo from "../../images/react-movie-logo.svg";
-// import TMDBLogo from "../../images/tmdb_logo.svg";
+import TMDBLogo from "../../images/tmdb_logo.svg";
 // routiing
 import { Link } from "react-router-dom";
 // login system
