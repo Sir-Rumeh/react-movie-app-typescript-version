@@ -32,4 +32,4 @@ const Header: React.FC = () => {
 		</Wrapper>
 	);
 };
-export default Header;
+// export default Header;
