@@ -27,7 +27,7 @@ const Header: React.FC = () => {
 						{/* <span className="logIn">Log in to rate</span> */}
 					</Link>
 				)}
-				{/* <TMDBLogoImg src={TMDBLogo} alt="tmdb-logo" /> */}
+				<TMDBLogoImg src={TMDBLogo} alt="tmdb-logo" />
 			</Content>
 		</Wrapper>
 	);
