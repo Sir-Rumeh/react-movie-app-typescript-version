@@ -24,7 +24,7 @@ const Header: React.FC = () => {
 					</span>
 				) : (
 					<Link to="/login">
-						<span className="logIn">Log in to rate</span>
+						{/* <span className="logIn">Log in to rate</span> */}
 					</Link>
 				)}
 				<TMDBLogoImg src={TMDBLogo} alt="tmdb-logo" />
