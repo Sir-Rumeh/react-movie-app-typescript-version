@@ -10,7 +10,7 @@ import React, { useContext } from "react";
 // import { Context } from "../../context";
 
 const Header: React.FC = () => {
-	// const [user] = useContext(Context);
+	const [user] = useContext(Context);
 
 	return (
 		<Wrapper id="header">
