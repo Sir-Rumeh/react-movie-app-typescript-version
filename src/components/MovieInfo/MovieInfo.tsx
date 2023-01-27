@@ -57,9 +57,9 @@ const MovieInfo: React.FC<Props> = ({ movie }) => {
 								{movie.directors.length > 1 ? "S" : ""}
 							</h3> */}
 							{movie.directors.map((director) => (
-								<p key={director.credit_id}>
-									{director.name}
-								</p>
+								// <p key={director.credit_id}>
+								// 	{director.name}
+								// </p>
 							))}
 						</div>
 					</div>
