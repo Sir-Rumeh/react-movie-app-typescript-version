@@ -41,7 +41,7 @@ const MovieInfo: React.FC<Props> = ({ movie }) => {
 				/> */}
 				<Text>
 					{/* <h1>{movie.title}</h1> */}
-					<h3>PLOT</h3>
+					{/* <h3>PLOT</h3> */}
 					<p className="plot">{movie.overview}</p>
 
 					<div className="rating-directors">
