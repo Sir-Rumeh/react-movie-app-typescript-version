@@ -40,7 +40,7 @@ const MovieInfo: React.FC<Props> = ({ movie }) => {
 					clickable={false}
 				/> */}
 				<Text>
-					<h1>{movie.title}</h1>
+					{/* <h1>{movie.title}</h1> */}
 					<h3>PLOT</h3>
 					<p className="plot">{movie.overview}</p>
 
