@@ -31,14 +31,14 @@ const MovieInfo: React.FC<Props> = ({ movie }) => {
 	return (
 		<Wrapper backdrop={movie.backdrop_path}>
 			<Content>
-				{/* <Thumb
+				<Thumb
 					image={
 						movie.poster_path
 							? `${IMAGE_BASE_URL}${POSTER_SIZE}${movie.poster_path}`
 							: NoImage
 					}
 					clickable={false}
-				/> */}
+				/>
 				<Text>
 					<h1>{movie.title}</h1>
 					<h3>PLOT</h3>
