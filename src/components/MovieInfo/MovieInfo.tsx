@@ -65,7 +65,7 @@ const MovieInfo: React.FC<Props> = ({ movie }) => {
 					</div>
 					{user && (
 						<div>
-							<p>Rate Movie</p>
+							{/* <p>Rate Movie</p> */}
 							<Rate callback={handleRating} />
 						</div>
 					)}
