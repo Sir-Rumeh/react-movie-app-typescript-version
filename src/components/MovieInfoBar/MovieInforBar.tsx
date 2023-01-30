@@ -6,7 +6,7 @@ import { Wrapper, Content } from "./MovieInfoBar.Styles";
 
 // Types
 type Props = {
-	time: number;
+	// time: number;
 	budget: number;
 	revenue: number;
 };
