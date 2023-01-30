@@ -8,7 +8,7 @@ import { Wrapper, Content } from "./MovieInfoBar.Styles";
 type Props = {
 	// time: number;
 	// budget: number;
-	revenue: number;
+	// revenue: number;
 };
 
 const MovieInfoBar: React.FC<Props> = ({ time, budget, revenue }) => {
