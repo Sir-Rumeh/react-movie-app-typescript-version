@@ -22,7 +22,7 @@ const MovieInfoBar: React.FC<Props> = ({ time, budget, revenue }) => {
 					{/* <p>Budget: {convertMoney(budget)}</p> */}
 				</div>
 				<div className="column">
-					<p>Revenue: {convertMoney(revenue)}</p>
+					{/* <p>Revenue: {convertMoney(revenue)}</p> */}
 				</div>
 			</Content>
 		</Wrapper>
