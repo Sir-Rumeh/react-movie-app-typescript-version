@@ -19,9 +19,9 @@ const SearchBar: React.FC<Props> = ({ setSearchTerm }) => {
 		// 	return;
 		// }
 
-		const timer = setTimeout(() => {
-			setSearchTerm(state);
-		}, 500);
+		// const timer = setTimeout(() => {
+		// 	setSearchTerm(state);
+		// }, 500);
 
 		return () => clearTimeout(timer);
 	}, [setSearchTerm, state]);
