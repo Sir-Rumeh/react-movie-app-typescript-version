@@ -11,7 +11,7 @@ type Props = {
 
 const SearchBar: React.FC<Props> = ({ setSearchTerm }) => {
 	// const [state, setState] = useState("");
-	const initial = useRef(true);
+	// const initial = useRef(true);
 
 	useEffect(() => {
 		if (initial.current) {
