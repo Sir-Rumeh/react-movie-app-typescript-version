@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export default function Rate({ callback }) {
+export default function Rate({ callback }: { callback: any }) {
 	const [value, setValue] = useState(5);
 
 	return (
@@ -10,7 +10,9 @@ export default function Rate({ callback }) {
 				min="1"
 				max="10"
 				value={value}
-				onChange={(e) => setValue(e.currentTarget.value)}
+				onChange={(e) =>
+					setValue(parseFloat(e.currentTarget.value))
+				}
 			/>
 			{value}
 			<p>
