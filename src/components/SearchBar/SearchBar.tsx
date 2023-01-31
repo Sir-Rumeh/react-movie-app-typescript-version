@@ -14,13 +14,13 @@ const SearchBar: React.FC<Props> = ({ setSearchTerm }) => {
 	// const initial = useRef(true);
 
 	useEffect(() => {
-		// if (initial.current) {
-		// 	initial.current = false;
-		// 	return;
-		// }
-		// const timer = setTimeout(() => {
-		// 	setSearchTerm(state);
-		// }, 500);
+		if (initial.current) {
+			initial.current = false;
+			return;
+		}
+		const timer = setTimeout(() => {
+			setSearchTerm(state);
+		}, 500);
 		return () => clearTimeout(timer);
 	}, [setSearchTerm, state]);
 
