@@ -6,7 +6,7 @@ import { isPersistedState } from "../helpers";
 export type MovieState = Movie & { actors: Cast[]; directors: Crew[] };
 
 export const useMovieFetch = (movieId: string) => {
-	// const [state, setState] = useState<MovieState>({} as MovieState);
+	const [state, setState] = useState<MovieState>({} as MovieState);
 	const [loading, setLoading] = useState(true);
 	const [error, setError] = useState(false);
 
