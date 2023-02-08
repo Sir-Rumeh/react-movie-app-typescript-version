@@ -37,11 +37,11 @@ export const useMovieFetch = (movieId: string) => {
 
 		const sessionState = isPersistedState(movieId);
 
-		if (sessionState) {
-			setState(sessionState);
-			setLoading(false);
-			return;
-		}
+		// if (sessionState) {
+		// 	setState(sessionState);
+		// 	setLoading(false);
+		// 	return;
+		// }
 
 		fetchMovie();
 	}, [movieId]);
