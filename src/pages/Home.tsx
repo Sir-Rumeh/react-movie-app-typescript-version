@@ -49,13 +49,13 @@ const Home: React.FC = () => {
 					<Thumb
 						key={`${movie.id}${random}`}
 						clickable
-						// image={
-						// 	movie.poster_path
-						// 		? IMAGE_BASE_URL +
-						// 		  POSTER_SIZE +
-						// 		  movie.poster_path
-						// 		: NoImage
-						// }
+						image={
+							movie.poster_path
+								? IMAGE_BASE_URL +
+								  POSTER_SIZE +
+								  movie.poster_path
+								: NoImage
+						}
 						// movieId={movie.id}
 					/>
 				))}
