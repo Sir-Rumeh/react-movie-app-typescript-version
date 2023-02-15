@@ -56,7 +56,7 @@ const Home: React.FC = () => {
 								  movie.poster_path
 								: NoImage
 						}
-						movieId={movie.id}
+						// movieId={movie.id}
 					/>
 				))}
 			</Grid>
