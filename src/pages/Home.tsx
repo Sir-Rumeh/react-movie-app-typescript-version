@@ -24,8 +24,8 @@ const Home: React.FC = () => {
 		loading,
 		error,
 		searchTerm,
-		// setSearchTerm,
-		// setIsLoadingMore,
+		setSearchTerm,
+		setIsLoadingMore,
 	} = useHomeFetch();
 
 	const random = Math.floor(Math.random() * 6);
