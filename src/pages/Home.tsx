@@ -48,7 +48,7 @@ const Home: React.FC = () => {
 				{state.results.map((movie) => (
 					<Thumb
 						key={`${movie.id}${random}`}
-						// clickable
+						clickable
 						// image={
 						// 	movie.poster_path
 						// 		? IMAGE_BASE_URL +
