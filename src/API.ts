@@ -8,12 +8,12 @@ import {
 	SESSION_ID_URL,
 } from "./config";
 
-const defaultConfig = {
-	method: "POST",
-	headers: {
-		"Content-Type": "application/json",
-	},
-};
+// const defaultConfig = {
+// 	method: "POST",
+// 	headers: {
+// 		"Content-Type": "application/json",
+// 	},
+// };
 
 // Types
 
@@ -109,7 +109,6 @@ const apiSettings = {
 	},
 	rateMovie: async (sessionId: string, movieId: number, value: number) => {
 		const endpoint = `${API_URL}movie/${movieId}/rating?api_key=${API_KEY}&session_id=${sessionId}`;
-
 		const rating = await (
 			await fetch(endpoint, {
 				...defaultConfig,
