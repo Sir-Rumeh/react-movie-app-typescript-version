@@ -8,29 +8,29 @@ import {
 	SESSION_ID_URL,
 } from "./config";
 
-// const defaultConfig = {
-// 	method: "POST",
-// 	headers: {
-// 		"Content-Type": "application/json",
-// 	},
-// };
+const defaultConfig = {
+	method: "POST",
+	headers: {
+		"Content-Type": "application/json",
+	},
+};
 
 // Types
 
-// export type Movie = {
-// 	backdrop_path: string;
-// 	id: number;
-// 	original_title: string;
-// 	overview: string;
-// 	popularity: number;
-// 	poster_path: string;
-// 	title: string;
-// 	vote_average: number;
-// 	vote_count: number;
-// 	budget: number;
-// 	runtime: number;
-// 	revenue: number;
-// };
+export type Movie = {
+	backdrop_path: string;
+	id: number;
+	original_title: string;
+	overview: string;
+	popularity: number;
+	poster_path: string;
+	title: string;
+	vote_average: number;
+	vote_count: number;
+	budget: number;
+	runtime: number;
+	revenue: number;
+};
 
 export type Movies = {
 	page: number;

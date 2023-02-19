@@ -15,7 +15,6 @@ export const useMovieFetch = (movieId: string) => {
 			try {
 				setLoading(true);
 				setError(false);
-
 				const movie = await API.fetchMovie(movieId);
 				const credits = await API.fetchCredits(movieId);
 				// Get directors only
