@@ -35,16 +35,16 @@ export default function Movie() {
 			/> */}
 			{/* <Grid header="Actors"> */}
 				{movie.actors.map((actor) => (
-					<Actor
-						key={actor.credit_id}
-						name={actor.name}
-						character={actor.character}
-						imageUrl={
-							actor.profile_path
-								? `${IMAGE_BASE_URL}${POSTER_SIZE}${actor.profile_path}`
-								: NoImage
-						}
-					/>
+					// <Actor
+					// 	key={actor.credit_id}
+					// 	name={actor.name}
+					// 	character={actor.character}
+					// 	imageUrl={
+					// 		actor.profile_path
+					// 			? `${IMAGE_BASE_URL}${POSTER_SIZE}${actor.profile_path}`
+					// 			: NoImage
+					// 	}
+					// />
 				))}
 			</Grid>
 		</div>
