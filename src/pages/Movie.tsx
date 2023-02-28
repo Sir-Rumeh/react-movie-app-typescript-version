@@ -28,11 +28,11 @@ export default function Movie() {
 		<div>
 			{/* <BreadCrumb movieTitle={movie.original_title} /> */}
 			{/* <MovieInfo movie={movie} /> */}
-			{/* <MovieInfoBar
+			<MovieInfoBar
 				time={movie.runtime}
 				budget={movie.budget}
 				revenue={movie.revenue}
-			/> */}
+			/>
 			<Grid header="Actors">
 				{movie.actors.map((actor) => (
 					<Actor
