@@ -26,7 +26,7 @@ export default function Movie() {
 
 	return (
 		<div>
-			{/* <BreadCrumb movieTitle={movie.original_title} /> */}
+			<BreadCrumb movieTitle={movie.original_title} />
 			<MovieInfo movie={movie} />
 			<MovieInfoBar
 				time={movie.runtime}
