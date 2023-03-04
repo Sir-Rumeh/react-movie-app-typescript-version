@@ -21,12 +21,12 @@ export default function Movie() {
 
 	// const { state: movie, loading, error } = useMovieFetch(movieId);
 
-	// if (loading) return <Spinner />;
+	if (loading) return <Spinner />;
 	if (error) return <NotFound />;
 
 	return (
 		<div>
-			<BreadCrumb movieTitle={movie.original_title} />
+			<BreadCrumb movieTitle={movie?.original_title} />
 			<MovieInfo movie={movie} />
 			<MovieInfoBar
 				time={movie.runtime}
