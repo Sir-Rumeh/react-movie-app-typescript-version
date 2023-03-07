@@ -7,7 +7,7 @@
 // const POPULAR_BASE_URL: string = `${API_URL}movie/popular?api_key=${API_KEY}&language=en-US`;
 // LOGGING IN AND VOTING SYSTEM
 // const REQUEST_TOKEN_URL: string = `${API_URL}authentication/token/new?api_key=${API_KEY}`;
-// const LOGIN_URL: string = `${API_URL}authentication/token/validate_with_login?api_key=${API_KEY}`;
+const LOGIN_URL: string = `${API_URL}authentication/token/validate_with_login?api_key=${API_KEY}`;
 const SESSION_ID_URL: string = `${API_URL}authentication/session/new?api_key=${API_KEY}`;
 
 const IMAGE_BASE_URL: string = "http://image.tmdb.org/t/p/";
