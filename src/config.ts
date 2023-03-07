@@ -3,7 +3,7 @@
 // const API_URL: string = "https://api.themoviedb.org/3/";
 // const API_KEY: string = "2de4e74c26beea138f11a1f2ccc19234";
 
-// const SEARCH_BASE_URL: string = `${API_URL}search/movie?api_key=${API_KEY}&language=en-US&query=`;
+const SEARCH_BASE_URL: string = `${API_URL}search/movie?api_key=${API_KEY}&language=en-US&query=`;
 const POPULAR_BASE_URL: string = `${API_URL}movie/popular?api_key=${API_KEY}&language=en-US`;
 // LOGGING IN AND VOTING SYSTEM
 const REQUEST_TOKEN_URL: string = `${API_URL}authentication/token/new?api_key=${API_KEY}`;
